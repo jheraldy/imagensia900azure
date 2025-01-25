@@ -1,0 +1,32 @@
+## Resultado em JSON de acordo com o reconhecimento das imagens descritas no file input
+- https://portal.vision.cognitive.azure.com/dist/assets/ImageCaptioningSample4-0559774f.png
+{
+  "apim-request-id": "87c7317d-2a21-4f9d-befd-0aefa101a83f",
+  "content-length": "158",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a baseball player holding a bat",
+    "confidence": 0.8214315176010132
+  },
+  "metadata": {
+    "width": 250,
+    "height": 322
+  }
+}
+- https://static-cdn.jtvnw.net/jtv_user_pictures/e2233547-1550-4818-b221-38eb7ffd7846-profile_image-70x70.png
+
+{
+  "apim-request-id": "f68fdb81-0b1e-4d7c-9dc7-751b2944c9ea",
+  "content-length": "158",
+  "content-type": "application/json; charset=utf-8",
+  "modelVersion": "2023-10-01",
+  "captionResult": {
+    "text": "a man holding a game controller",
+    "confidence": 0.7943328022956848
+  },
+  "metadata": {
+    "width": 800,
+    "height": 800
+  }
+}
